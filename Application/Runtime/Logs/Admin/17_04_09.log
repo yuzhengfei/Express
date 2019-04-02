@@ -1,0 +1,483 @@
+[ 2017-04-09T00:17:05+08:00 ] ::1 /express/index.php/Admin/Car/carAdd
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000813s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001432s ]
+SQL: SHOW COLUMNS FROM `ep_car` [ RunTime:0.0044s ]
+NOTIC: [8] Undefined index: validate F:\phpStudy\WWW\express\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto F:\phpStudy\WWW\express\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `ep_car` (`carnumber`,`caruser`,`create_at`) VALUES ('11111','1111','2017-04-09 00:17:05') [ RunTime:0.0005s ]
+SQL: SELECT * FROM `ep_car` WHERE ( id='2' ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000704s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000784s ]
+
+[ 2017-04-09T00:23:11+08:00 ] ::1 /express/index.php/Admin/Car/carAdd
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000609s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001050s ]
+NOTIC: [8] Use of undefined constant JSON_UNESCAPED_UNICODE - assumed 'JSON_UNESCAPED_UNICODE' F:\phpStudy\WWW\express\Application\Admin\Controller\CarController.class.php 第 27 行.
+NOTIC: [2] json_encode() expects parameter 2 to be long, string given F:\phpStudy\WWW\express\Application\Admin\Controller\CarController.class.php 第 27 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000579s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000655s ]
+
+[ 2017-04-09T00:23:15+08:00 ] ::1 /express/index.php/Admin/Car/carAdd
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000883s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001505s ]
+SQL: SHOW COLUMNS FROM `ep_car` [ RunTime:0.0054s ]
+NOTIC: [8] Undefined index: validate F:\phpStudy\WWW\express\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto F:\phpStudy\WWW\express\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `ep_car` (`carnumber`,`caruser`,`create_at`) VALUES ('12123','111','2017-04-09 00:23:15') [ RunTime:0.0005s ]
+SQL: SELECT * FROM `ep_car` WHERE ( id='3' ) LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000993s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001130s ]
+
+[ 2017-04-09T00:30:53+08:00 ] ::1 /express/index.php/Admin/Editcar/carEdit
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000959s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001506s ]
+SQL: SHOW COLUMNS FROM `ep_car` [ RunTime:0.0043s ]
+SQL: UPDATE `ep_car` SET `carnumber`='哈哈哈',`caruser`='111' WHERE `id` = 1 [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001235s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001317s ]
+
+[ 2017-04-09T00:37:52+08:00 ] ::1 /express/index.php/Admin/Listposition
+ERR: 无法加载控制器:Listposition
+
+[ 2017-04-09T00:40:44+08:00 ] ::1 /express/index.php/Admin/Lisperson
+ERR: 无法加载控制器:Lisperson
+
+[ 2017-04-09T11:39:20+08:00 ] ::1 /express/index.php/Admin/Index/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001069s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001631s ]
+SQL: SHOW COLUMNS FROM `ep_admin` [ RunTime:0.0125s ]
+SQL: SELECT * FROM `ep_admin` WHERE ( name='admin' AND password='123' ) LIMIT 1   [ RunTime:0.0012s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002528s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002783s ]
+
+[ 2017-04-09T11:43:09+08:00 ] ::1 /express/index.php/Admin/Lisperson
+ERR: 无法加载控制器:Lisperson
+
+[ 2017-04-09T11:43:21+08:00 ] ::1 /express/index.php/Admin/Lisperson
+ERR: 无法加载控制器:Lisperson
+
+[ 2017-04-09T11:44:22+08:00 ] ::1 /express/index.php/Admin/Lisperson
+ERR: 无法加载控制器:Lisperson
+
+[ 2017-04-09T11:44:45+08:00 ] ::1 /express/index.php/Admin/Lisperson
+ERR: 无法加载控制器:Lisperson
+
+[ 2017-04-09T11:44:45+08:00 ] ::1 /express/index.php/Admin/Lisperson
+ERR: 无法加载控制器:Lisperson
+
+[ 2017-04-09T11:44:45+08:00 ] ::1 /express/index.php/Admin/Lisperson
+ERR: 无法加载控制器:Lisperson
+
+[ 2017-04-09T11:44:45+08:00 ] ::1 /express/index.php/Admin/Lisperson
+ERR: 无法加载控制器:Lisperson
+
+[ 2017-04-09T11:45:00+08:00 ] ::1 /express/index.php/Admin/Lisperson
+ERR: 无法加载控制器:Lisperson
+
+[ 2017-04-09T11:53:13+08:00 ] ::1 /express/index.php/Admin/Express/expressAdd
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000759s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001311s ]
+ERR: 参数错误或者未定义:jaddress
+
+[ 2017-04-09T12:13:05+08:00 ] ::1 /express/index.php/Admin/Person/personAdd
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000698s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001133s ]
+SQL: SHOW COLUMNS FROM `ep_user` [ RunTime:0.0042s ]
+NOTIC: [8] Undefined index: validate F:\phpStudy\WWW\express\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto F:\phpStudy\WWW\express\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `ep_user` (`name`,`sex`,`position`,`username`,`password`,`phone`) VALUES ('123123','女','1231','123123','123123','123123123') [ RunTime:0.0004s ]
+SQL: SELECT * FROM `ep_user` WHERE ( id='5' ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000838s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000910s ]
+
+[ 2017-04-09T12:21:26+08:00 ] ::1 /express/index.php/Admin/Person/personDetele
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000558s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000971s ]
+ERR: 非法操作:personDetele
+
+[ 2017-04-09T12:22:17+08:00 ] ::1 /express/index.php/Admin/Person/personDetele
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000691s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001233s ]
+ERR: 非法操作:personDetele
+
+[ 2017-04-09T12:23:29+08:00 ] ::1 /express/index.php/Admin/Listperson/personDetele
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000552s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000950s ]
+SQL: SHOW COLUMNS FROM `ep_user` [ RunTime:0.0045s ]
+SQL: DELETE FROM `ep_user` WHERE ( id='3' ) [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000943s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001052s ]
+
+[ 2017-04-09T12:34:52+08:00 ] ::1 /express/index.php/Admin/Position/positionAdd
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000780s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001319s ]
+SQL: SHOW COLUMNS FROM `ep_position` [ RunTime:0.0058s ]
+NOTIC: [8] Undefined index: validate F:\phpStudy\WWW\express\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto F:\phpStudy\WWW\express\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `ep_position` (`name`,`info`) VALUES ('快递员','送快递') [ RunTime:0.0006s ]
+SQL: SELECT * FROM `ep_position` WHERE ( id='2' ) LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000923s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001025s ]
+
+[ 2017-04-09T12:38:24+08:00 ] ::1 /express/index.php/Admin/Position/positionDetele
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000755s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001268s ]
+ERR: 非法操作:positionDetele
+
+[ 2017-04-09T12:40:08+08:00 ] ::1 /express/index.php/Admin/Listposition/positionDetele
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000784s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001366s ]
+ERR: 非法操作:positionDetele
+
+[ 2017-04-09T12:40:25+08:00 ] ::1 /express/index.php/Admin/Listposition/positionDetele
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000546s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000953s ]
+SQL: SHOW COLUMNS FROM `ep_position` [ RunTime:0.0049s ]
+SQL: DELETE FROM `ep_position` WHERE ( id='1' ) [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000820s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000909s ]
+
+[ 2017-04-09T12:42:38+08:00 ] ::1 /express/index.php/Admin/Express/expressAdd
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000789s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001345s ]
+ERR: 参数错误或者未定义:jaddress
+
+[ 2017-04-09T12:57:57+08:00 ] ::1 /express/index.php/Admin/Express/expressAdd
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000547s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000937s ]
+ERR: 参数错误或者未定义:number
+
+[ 2017-04-09T12:58:24+08:00 ] ::1 /express/index.php/Admin/Express/expressAdd
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000543s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000928s ]
+ERR: 参数错误或者未定义:number
+
+[ 2017-04-09T13:00:11+08:00 ] ::1 /express/index.php/Admin/Express/expressAdd
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000907s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001583s ]
+ERR: 参数错误或者未定义:number
+
+[ 2017-04-09T13:03:37+08:00 ] ::1 /express/index.php/Admin/Express/expressAdd
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000731s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001195s ]
+ERR: 参数错误或者未定义:number
+
+[ 2017-04-09T13:46:41+08:00 ] ::1 /express/index.php/Admin/Express/expressAdd
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000775s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001240s ]
+SQL: SHOW COLUMNS FROM `ep_express` [ RunTime:0.0076s ]
+NOTIC: [8] Undefined index: validate F:\phpStudy\WWW\express\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto F:\phpStudy\WWW\express\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `ep_express` (`number`,`jperson`,`jaddress`,`jphone`,`sperson`,`saddress`,`sphone`,`weight`,`price`,`state`,`create_at`,`update_at`) VALUES ('123','123','123','123','123','123','123','1.1','1.3','运送中','2017-04-09 13:46:41','2017-04-09 13:46:41') [ RunTime:0.0005s ]
+SQL: SELECT * FROM `ep_express` WHERE ( id='2' ) LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000889s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000962s ]
+
+[ 2017-04-09T13:50:20+08:00 ] ::1 /express/index.php/Admin/Express/expressAdd
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000691s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001145s ]
+SQL: SHOW COLUMNS FROM `ep_express` [ RunTime:0.0051s ]
+NOTIC: [8] Undefined index: validate F:\phpStudy\WWW\express\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto F:\phpStudy\WWW\express\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `ep_express` (`number`,`jperson`,`jaddress`,`jphone`,`sperson`,`saddress`,`sphone`,`weight`,`price`,`state`,`create_at`,`update_at`) VALUES ('啊啊啊','啊','啊','啊',' 啊',' 啊',' 啊','1.1','2.1','运送中','2017-04-09 13:50:20','2017-04-09 13:50:20') [ RunTime:0.0005s ]
+SQL: SELECT * FROM `ep_express` WHERE ( id='3' ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000842s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000915s ]
+
+[ 2017-04-09T14:05:18+08:00 ] ::1 /express/index.php/Admin/Search
+ERR: 参数错误或者未定义:expressnumber
+
+[ 2017-04-09T14:05:18+08:00 ] ::1 /express/index.php/Admin/Search
+ERR: 参数错误或者未定义:expressnumber
+
+[ 2017-04-09T14:05:18+08:00 ] ::1 /express/index.php/Admin/Search
+ERR: 参数错误或者未定义:expressnumber
+
+[ 2017-04-09T14:05:19+08:00 ] ::1 /express/index.php/Admin/Search
+ERR: 参数错误或者未定义:expressnumber
+
+[ 2017-04-09T14:05:19+08:00 ] ::1 /express/index.php/Admin/Search
+ERR: 参数错误或者未定义:expressnumber
+
+[ 2017-04-09T14:05:19+08:00 ] ::1 /express/index.php/Admin/Search
+ERR: 参数错误或者未定义:expressnumber
+
+[ 2017-04-09T14:05:19+08:00 ] ::1 /express/index.php/Admin/Search
+ERR: 参数错误或者未定义:expressnumber
+
+[ 2017-04-09T14:05:20+08:00 ] ::1 /express/index.php/Admin/Search
+ERR: 参数错误或者未定义:expressnumber
+
+[ 2017-04-09T14:05:43+08:00 ] ::1 /express/index.php/Admin/Search
+ERR: 参数错误或者未定义:expressnumber
+
+[ 2017-04-09T14:06:04+08:00 ] ::1 /express/index.php/Admin/Search
+ERR: 参数错误或者未定义:expressnumber
+
+[ 2017-04-09T14:06:06+08:00 ] ::1 /express/index.php/Admin/Search
+ERR: 参数错误或者未定义:expressnumber
+
+[ 2017-04-09T14:06:06+08:00 ] ::1 /express/index.php/Admin/Search
+ERR: 参数错误或者未定义:expressnumber
+
+[ 2017-04-09T14:06:06+08:00 ] ::1 /express/index.php/Admin/Search
+ERR: 参数错误或者未定义:expressnumber
+
+[ 2017-04-09T14:06:06+08:00 ] ::1 /express/index.php/Admin/Search
+ERR: 参数错误或者未定义:expressnumber
+
+[ 2017-04-09T14:06:07+08:00 ] ::1 /express/index.php/Admin/Search
+ERR: 参数错误或者未定义:expressnumber
+
+[ 2017-04-09T14:06:58+08:00 ] ::1 /express/index.php/Admin/Search
+ERR: 参数错误或者未定义:expressnumber
+
+[ 2017-04-09T14:06:58+08:00 ] ::1 /express/index.php/Admin/Search
+ERR: 参数错误或者未定义:expressnumber
+
+[ 2017-04-09T14:06:58+08:00 ] ::1 /express/index.php/Admin/Search
+ERR: 参数错误或者未定义:expressnumber
+
+[ 2017-04-09T14:06:58+08:00 ] ::1 /express/index.php/Admin/Search
+ERR: 参数错误或者未定义:expressnumber
+
+[ 2017-04-09T14:06:59+08:00 ] ::1 /express/index.php/Admin/Search
+ERR: 参数错误或者未定义:expressnumber
+
+[ 2017-04-09T14:07:23+08:00 ] ::1 /express/index.php/Admin/Search
+ERR: 参数错误或者未定义:expressnumber
+
+[ 2017-04-09T14:07:23+08:00 ] ::1 /express/index.php/Admin/Search
+ERR: 参数错误或者未定义:expressnumber
+
+[ 2017-04-09T14:07:23+08:00 ] ::1 /express/index.php/Admin/Search
+ERR: 参数错误或者未定义:expressnumber
+
+[ 2017-04-09T14:07:30+08:00 ] ::1 /express/index.php/Admin/Search
+ERR: 参数错误或者未定义:expressnumber
+
+[ 2017-04-09T14:07:30+08:00 ] ::1 /express/index.php/Admin/Search
+ERR: 参数错误或者未定义:expressnumber
+
+[ 2017-04-09T14:07:30+08:00 ] ::1 /express/index.php/Admin/Search
+ERR: 参数错误或者未定义:expressnumber
+
+[ 2017-04-09T14:07:30+08:00 ] ::1 /express/index.php/Admin/Search
+ERR: 参数错误或者未定义:expressnumber
+
+[ 2017-04-09T14:07:30+08:00 ] ::1 /express/index.php/Admin/Search
+ERR: 参数错误或者未定义:expressnumber
+
+[ 2017-04-09T14:07:30+08:00 ] ::1 /express/index.php/Admin/Search
+ERR: 参数错误或者未定义:expressnumber
+
+[ 2017-04-09T14:07:30+08:00 ] ::1 /express/index.php/Admin/Search
+ERR: 参数错误或者未定义:expressnumber
+
+[ 2017-04-09T14:07:31+08:00 ] ::1 /express/index.php/Admin/Search
+ERR: 参数错误或者未定义:expressnumber
+
+[ 2017-04-09T14:08:07+08:00 ] ::1 /express/index.php/Admin/Search
+ERR: 参数错误或者未定义:expressnumber
+
+[ 2017-04-09T14:08:07+08:00 ] ::1 /express/index.php/Admin/Search
+ERR: 参数错误或者未定义:expressnumber
+
+[ 2017-04-09T14:08:08+08:00 ] ::1 /express/index.php/Admin/Search
+ERR: 参数错误或者未定义:expressnumber
+
+[ 2017-04-09T14:08:08+08:00 ] ::1 /express/index.php/Admin/Search
+ERR: 参数错误或者未定义:expressnumber
+
+[ 2017-04-09T14:08:08+08:00 ] ::1 /express/index.php/Admin/Search
+ERR: 参数错误或者未定义:expressnumber
+
+[ 2017-04-09T14:08:08+08:00 ] ::1 /express/index.php/Admin/Search
+ERR: 参数错误或者未定义:expressnumber
+
+[ 2017-04-09T14:58:04+08:00 ] ::1 /express/index.php/Admin/Search/search
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000753s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001317s ]
+SQL: SHOW COLUMNS FROM `ep_express` [ RunTime:0.0052s ]
+SQL: SELECT * FROM `ep_express` WHERE (  number = '123'  )  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000703s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000781s ]
+
+[ 2017-04-09T16:27:19+08:00 ] ::1 /express/index.php/Admin/Editexpress/expressEdit
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000617s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001201s ]
+NOTIC: [8] Undefined variable: name F:\phpStudy\WWW\express\Application\Admin\Controller\EditexpressController.class.php 第 25 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000823s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000940s ]
+
+[ 2017-04-09T16:27:53+08:00 ] ::1 /express/index.php/Admin/Editexpress/expressEdit
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001168s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001987s ]
+NOTIC: [8] Undefined variable: name F:\phpStudy\WWW\express\Application\Admin\Controller\EditexpressController.class.php 第 25 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000934s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001084s ]
+
+[ 2017-04-09T16:28:03+08:00 ] ::1 /express/index.php/Admin/Editexpress/expressEdit
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000555s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+NOTIC: [8] Undefined variable: name F:\phpStudy\WWW\express\Application\Admin\Controller\EditexpressController.class.php 第 25 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000971s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001176s ]
+
+[ 2017-04-09T16:28:20+08:00 ] ::1 /express/index.php/Admin/Editexpress/expressEdit
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001544s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002263s ]
+NOTIC: [8] Undefined variable: name F:\phpStudy\WWW\express\Application\Admin\Controller\EditexpressController.class.php 第 25 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000846s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000971s ]
+
+[ 2017-04-09T16:28:35+08:00 ] ::1 /express/index.php/Admin/Editexpress/expressEdit
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000564s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000972s ]
+NOTIC: [8] Undefined variable: name F:\phpStudy\WWW\express\Application\Admin\Controller\EditexpressController.class.php 第 25 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000620s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000705s ]
+
+[ 2017-04-09T16:28:36+08:00 ] ::1 /express/index.php/Admin/Editexpress/expressEdit
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000833s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001388s ]
+NOTIC: [8] Undefined variable: name F:\phpStudy\WWW\express\Application\Admin\Controller\EditexpressController.class.php 第 25 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000642s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000737s ]
+
+[ 2017-04-09T16:28:36+08:00 ] ::1 /express/index.php/Admin/Editexpress/expressEdit
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000575s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001005s ]
+NOTIC: [8] Undefined variable: name F:\phpStudy\WWW\express\Application\Admin\Controller\EditexpressController.class.php 第 25 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000550s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000624s ]
+
+[ 2017-04-09T16:28:36+08:00 ] ::1 /express/index.php/Admin/Editexpress/expressEdit
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000505s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000971s ]
+NOTIC: [8] Undefined variable: name F:\phpStudy\WWW\express\Application\Admin\Controller\EditexpressController.class.php 第 25 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000563s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000629s ]
+
+[ 2017-04-09T16:28:36+08:00 ] ::1 /express/index.php/Admin/Editexpress/expressEdit
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000752s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001312s ]
+NOTIC: [8] Undefined variable: name F:\phpStudy\WWW\express\Application\Admin\Controller\EditexpressController.class.php 第 25 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000783s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000883s ]
+
+[ 2017-04-09T16:28:37+08:00 ] ::1 /express/index.php/Admin/Editexpress/expressEdit
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000554s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000963s ]
+NOTIC: [8] Undefined variable: name F:\phpStudy\WWW\express\Application\Admin\Controller\EditexpressController.class.php 第 25 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000563s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000635s ]
+
+[ 2017-04-09T16:28:38+08:00 ] ::1 /express/index.php/Admin/Editexpress/expressEdit
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000921s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001508s ]
+NOTIC: [8] Undefined variable: name F:\phpStudy\WWW\express\Application\Admin\Controller\EditexpressController.class.php 第 25 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000842s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000959s ]
+
+[ 2017-04-09T16:28:38+08:00 ] ::1 /express/index.php/Admin/Editexpress/expressEdit
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000770s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001317s ]
+NOTIC: [8] Undefined variable: name F:\phpStudy\WWW\express\Application\Admin\Controller\EditexpressController.class.php 第 25 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000609s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000682s ]
+
+[ 2017-04-09T16:29:55+08:00 ] ::1 /express/index.php/Admin/Editexpress/expressEdit
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000771s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001311s ]
+SQL: SHOW COLUMNS FROM `ep_express` [ RunTime:0.0044s ]
+SQL: UPDATE `ep_express` SET `username`='111' WHERE (  id = '3'  ) [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000713s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000787s ]
+
+[ 2017-04-09T16:30:59+08:00 ] ::1 /express/index.php/Admin/Editexpress/expressEdit
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000497s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000861s ]
+SQL: SHOW COLUMNS FROM `ep_express` [ RunTime:0.0051s ]
+SQL: UPDATE `ep_express` SET `username`='3333' WHERE (  id = '3'  ) [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000682s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000760s ]
+
+[ 2017-04-09T16:52:41+08:00 ] ::1 /express/index.php/Admin/Listexpress/expressDelete
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000562s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:expressDelete
+
+[ 2017-04-09T16:59:24+08:00 ] ::1 /express/index.php/Admin/Listexpress/expressDelete
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000796s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001319s ]
+SQL: SHOW COLUMNS FROM `ep_express` [ RunTime:0.0110s ]
+SQL: DELETE FROM `ep_express` WHERE (  id = '1'  ) [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000687s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000764s ]
+

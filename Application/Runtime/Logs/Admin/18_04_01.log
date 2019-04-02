@@ -1,0 +1,20 @@
+[ 2018-04-01T20:43:07+08:00 ] ::1 /express/index.php/Admin/Index/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000508s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000910s ]
+SQL: SHOW COLUMNS FROM `ep_admin` [ RunTime:0.0778s ]
+SQL: SELECT * FROM `ep_admin` WHERE ( name='admin' AND password='123456' ) LIMIT 1   [ RunTime:0.0058s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000813s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000872s ]
+
+[ 2018-04-01T20:43:11+08:00 ] ::1 /express/index.php/Admin/Index/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000643s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001402s ]
+SQL: SHOW COLUMNS FROM `ep_admin` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `ep_admin` WHERE ( name='admin' AND password='123' ) LIMIT 1   [ RunTime:0.0009s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001406s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001586s ]
+

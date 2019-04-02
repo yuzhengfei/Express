@@ -1,0 +1,62 @@
+[ 2018-05-09T10:37:46+08:00 ] ::1 /express/index.php/Admin/Index/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009000s ]
+SQL: SHOW COLUMNS FROM `ep_admin` [ RunTime:0.0490s ]
+SQL: SELECT * FROM `ep_admin` WHERE ( name='admin' AND password='123' ) LIMIT 1   [ RunTime:0.0020s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2018-05-09T11:52:26+08:00 ] ::1 /express/index.php/Admin/Position/positionAdd
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005001s ]
+SQL: SHOW COLUMNS FROM `ep_position` [ RunTime:0.0240s ]
+NOTIC: [8] Undefined index: validate D:\phpStudy\WWW\express\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\phpStudy\WWW\express\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `ep_position` (`name`,`info`) VALUES ('1','1') [ RunTime:0.0020s ]
+SQL: SELECT * FROM `ep_position` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2018-05-09T11:52:28+08:00 ] ::1 /express/index.php/Admin/Position/positionAdd
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005001s ]
+SQL: SHOW COLUMNS FROM `ep_position` [ RunTime:0.0230s ]
+NOTIC: [8] Undefined index: validate D:\phpStudy\WWW\express\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\phpStudy\WWW\express\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `ep_position` (`name`,`info`) VALUES ('1','1') [ RunTime:0.0180s ]
+SQL: SELECT * FROM `ep_position` WHERE ( id='2' ) LIMIT 1   [ RunTime:0.0260s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2018-05-09T11:52:41+08:00 ] ::1 /express/index.php/Admin/Person/personAdd
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008000s ]
+SQL: SHOW COLUMNS FROM `ep_user` [ RunTime:0.0270s ]
+NOTIC: [8] Undefined index: validate D:\phpStudy\WWW\express\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\phpStudy\WWW\express\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `ep_user` (`name`,`sex`,`position`,`username`,`password`,`phone`) VALUES ('1','男','1','1','1','1') [ RunTime:0.0030s ]
+SQL: SELECT * FROM `ep_user` WHERE ( id='2' ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2018-05-09T11:52:54+08:00 ] ::1 /express/index.php/Admin/Car/carAdd
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `ep_car` [ RunTime:0.0240s ]
+NOTIC: [8] Undefined index: validate D:\phpStudy\WWW\express\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\phpStudy\WWW\express\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `ep_car` (`carnumber`,`caruser`,`create_at`) VALUES ('1','1','2018-05-09 11:52:54') [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ep_car` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0020s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003001s ]
+

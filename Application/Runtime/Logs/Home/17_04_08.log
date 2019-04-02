@@ -1,0 +1,214 @@
+[ 2017-04-08T15:12:05+08:00 ] ::1 /goods/index.php/Home/Index/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000755s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001257s ]
+SQL: SHOW COLUMNS FROM `goods_admin` [ RunTime:0.1040s ]
+SQL: SELECT * FROM `goods_admin` WHERE ( name='admin' AND password='123' ) LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001088s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001199s ]
+
+[ 2017-04-08T15:14:10+08:00 ] ::1 /goods/index.php/Home/log/goods/index.php/Home/Inorder/doLogout
+ERR: 无法加载控制器:Log
+
+[ 2017-04-08T17:14:54+08:00 ] ::1 /express/index.php/Home/Index/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001196s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002023s ]
+ERR: 参数错误或者未定义:name
+
+[ 2017-04-08T17:14:55+08:00 ] ::1 /express/index.php/Home/Index/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001451s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002173s ]
+ERR: 参数错误或者未定义:name
+
+[ 2017-04-08T17:15:01+08:00 ] ::1 /express/index.php/Home/Index/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001671s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002424s ]
+ERR: 参数错误或者未定义:name
+
+[ 2017-04-08T17:16:03+08:00 ] ::1 /express/index.php/Home/Index/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002462s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003509s ]
+SQL: SHOW COLUMNS FROM `goods_admin` [ RunTime:0.0505s ]
+SQL: SELECT * FROM `goods_admin` WHERE ( name='admin' AND password='123' ) LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001386s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001497s ]
+
+[ 2017-04-08T17:16:03+08:00 ] ::1 /express/index.php/Home/Listexpress/index
+ERR: 无法加载控制器:Listexpress
+
+[ 2017-04-08T17:16:09+08:00 ] ::1 /express/index.php/Home/Index/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001065s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001609s ]
+SQL: SHOW COLUMNS FROM `goods_admin` [ RunTime:0.0056s ]
+SQL: SELECT * FROM `goods_admin` WHERE ( name='admin' AND password='11' ) LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001270s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001344s ]
+
+[ 2017-04-08T17:48:26+08:00 ] ::1 /express/index.php/Home/Listexpress/index
+ERR: 无法加载控制器:Listexpress
+
+[ 2017-04-08T17:48:26+08:00 ] ::1 /express/index.php/Home/Listexpress/index
+ERR: 无法加载控制器:Listexpress
+
+[ 2017-04-08T17:48:26+08:00 ] ::1 /express/index.php/Home/Listexpress/index
+ERR: 无法加载控制器:Listexpress
+
+[ 2017-04-08T17:48:26+08:00 ] ::1 /express/index.php/Home/Listexpress/index
+ERR: 无法加载控制器:Listexpress
+
+[ 2017-04-08T17:49:48+08:00 ] ::1 /express/index.php/Home/Listexpress/index
+ERR: 无法加载控制器:Listexpress
+
+[ 2017-04-08T17:50:10+08:00 ] ::1 /express/index.php/Home/Listexpress/index
+ERR: 无法加载控制器:Listexpress
+
+[ 2017-04-08T17:50:10+08:00 ] ::1 /express/index.php/Home/Listexpress/index
+ERR: 无法加载控制器:Listexpress
+
+[ 2017-04-08T17:50:11+08:00 ] ::1 /express/index.php/Home/Listexpress/index
+ERR: 无法加载控制器:Listexpress
+
+[ 2017-04-08T17:50:11+08:00 ] ::1 /express/index.php/Home/Listexpress/index
+ERR: 无法加载控制器:Listexpress
+
+[ 2017-04-08T17:50:30+08:00 ] ::1 /express/index.php/Home/Index/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001403s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002113s ]
+SQL: SHOW COLUMNS FROM `goods_admin` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `goods_admin` WHERE ( name='admin' AND password='123' ) LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001495s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001635s ]
+
+[ 2017-04-08T17:50:30+08:00 ] ::1 /express/index.php/Home/Listexpress/index
+ERR: 无法加载控制器:Listexpress
+
+[ 2017-04-08T17:51:34+08:00 ] ::1 /express/index.php/Home/Listexpress/index
+ERR: 无法加载控制器:Listexpress
+
+[ 2017-04-08T17:51:34+08:00 ] ::1 /express/index.php/Home/Listexpress/index
+ERR: 无法加载控制器:Listexpress
+
+[ 2017-04-08T17:51:34+08:00 ] ::1 /express/index.php/Home/Listexpress/index
+ERR: 无法加载控制器:Listexpress
+
+[ 2017-04-08T17:53:09+08:00 ] ::1 /express/index.php/Home/Index/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001397s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002105s ]
+SQL: SHOW COLUMNS FROM `goods_admin` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `goods_admin` WHERE ( name='admin' AND password='123' ) LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001316s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001416s ]
+
+[ 2017-04-08T17:53:09+08:00 ] ::1 /express/index.php/Home/Listexpress/index
+ERR: 无法加载控制器:Listexpress
+
+[ 2017-04-08T17:55:45+08:00 ] ::1 /express/index.php/Home/Listexpress/index
+ERR: 无法加载控制器:Listexpress
+
+[ 2017-04-08T17:55:45+08:00 ] ::1 /express/index.php/Home/Listexpress/index
+ERR: 无法加载控制器:Listexpress
+
+[ 2017-04-08T17:55:45+08:00 ] ::1 /express/index.php/Home/Listexpress/index
+ERR: 无法加载控制器:Listexpress
+
+[ 2017-04-08T17:55:45+08:00 ] ::1 /express/index.php/Home/Listexpress/index
+ERR: 无法加载控制器:Listexpress
+
+[ 2017-04-08T17:55:45+08:00 ] ::1 /express/index.php/Home/Listexpress/index
+ERR: 无法加载控制器:Listexpress
+
+[ 2017-04-08T17:55:45+08:00 ] ::1 /express/index.php/Home/Listexpress/index
+ERR: 无法加载控制器:Listexpress
+
+[ 2017-04-08T17:58:47+08:00 ] ::1 /express/index.php/Home/Listexpress/index
+ERR: 无法加载控制器:Listexpress
+
+[ 2017-04-08T17:58:47+08:00 ] ::1 /express/index.php/Home/Listexpress/index
+ERR: 无法加载控制器:Listexpress
+
+[ 2017-04-08T17:58:47+08:00 ] ::1 /express/index.php/Home/Listexpress/index
+ERR: 无法加载控制器:Listexpress
+
+[ 2017-04-08T17:58:47+08:00 ] ::1 /express/index.php/Home/Listexpress/index
+ERR: 无法加载控制器:Listexpress
+
+[ 2017-04-08T17:58:47+08:00 ] ::1 /express/index.php/Home/Listexpress/index
+ERR: 无法加载控制器:Listexpress
+
+[ 2017-04-08T17:58:48+08:00 ] ::1 /express/index.php/Home/Listexpress/index
+ERR: 无法加载控制器:Listexpress
+
+[ 2017-04-08T17:58:51+08:00 ] ::1 /express/index.php/Home/Index/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000554s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000919s ]
+SQL: SHOW COLUMNS FROM `ep_admin` [ RunTime:0.0055s ]
+SQL: SELECT * FROM `ep_admin` WHERE ( name='admin' AND password='123' ) LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000888s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000973s ]
+
+[ 2017-04-08T17:58:51+08:00 ] ::1 /express/index.php/Home/Listexpress/index
+ERR: 无法加载控制器:Listexpress
+
+[ 2017-04-08T18:09:35+08:00 ] ::1 /express/index.php/Home/Listexpress/index
+ERR: 无法加载控制器:Listexpress
+
+[ 2017-04-08T18:09:35+08:00 ] ::1 /express/index.php/Home/Listexpress/index
+ERR: 无法加载控制器:Listexpress
+
+[ 2017-04-08T18:09:35+08:00 ] ::1 /express/index.php/Home/Listexpress/index
+ERR: 无法加载控制器:Listexpress
+
+[ 2017-04-08T18:09:35+08:00 ] ::1 /express/index.php/Home/Listexpress/index
+ERR: 无法加载控制器:Listexpress
+
+[ 2017-04-08T18:09:36+08:00 ] ::1 /express/index.php/Home/Listexpress/index
+ERR: 无法加载控制器:Listexpress
+
+[ 2017-04-08T18:10:15+08:00 ] ::1 /express/index.php/Home/Listexpress/index
+ERR: 无法加载控制器:Listexpress
+
+[ 2017-04-08T18:10:16+08:00 ] ::1 /express/index.php/Home/Listexpress/index
+ERR: 无法加载控制器:Listexpress
+
+[ 2017-04-08T18:10:16+08:00 ] ::1 /express/index.php/Home/Listexpress/index
+ERR: 无法加载控制器:Listexpress
+
+[ 2017-04-08T18:10:19+08:00 ] ::1 /express/index.php/Home/Index/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001051s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001607s ]
+SQL: SHOW COLUMNS FROM `ep_admin` [ RunTime:0.0055s ]
+SQL: SELECT * FROM `ep_admin` WHERE ( name='admin' AND password='123' ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001199s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001281s ]
+
+[ 2017-04-08T18:10:19+08:00 ] ::1 /express/index.php/Home/Listexpress/index
+ERR: 无法加载控制器:Listexpress
+
+[ 2017-04-08T18:10:25+08:00 ] ::1 /express/index.php/Home/Listexpress/index
+ERR: 无法加载控制器:Listexpress
+
+[ 2017-04-08T18:10:25+08:00 ] ::1 /express/index.php/Home/Listexpress/index
+ERR: 无法加载控制器:Listexpress
+
+[ 2017-04-08T18:10:26+08:00 ] ::1 /express/index.php/Home/Listexpress/index
+ERR: 无法加载控制器:Listexpress
+
+[ 2017-04-08T18:10:32+08:00 ] ::1 /express/index.php/Home/Listexpress/index
+ERR: 无法加载控制器:Listexpress
+

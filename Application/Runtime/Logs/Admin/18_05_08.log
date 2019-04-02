@@ -1,0 +1,34 @@
+[ 2018-05-08T17:13:18+08:00 ] ::1 /express/index.php/Admin/Index/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006000s ]
+SQL: SHOW COLUMNS FROM `ep_admin` [ RunTime:0.1460s ]
+SQL: SELECT * FROM `ep_admin` WHERE ( name='admin' AND password='123' ) LIMIT 1   [ RunTime:0.0020s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2018-05-08T17:13:26+08:00 ] ::1 /express/index.php/Admin/Search/search
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006001s ]
+SQL: SHOW COLUMNS FROM `ep_express` [ RunTime:0.0220s ]
+SQL: SELECT * FROM `ep_express` WHERE (  number = ''  )  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined offset: 0 D:\phpStudy\WWW\express\Application\Admin\Controller\SearchController.class.php 第 28 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2018-05-08T17:15:34+08:00 ] ::1 /express/index.php/Admin/Notice/noticeAdd
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `ep_notice` [ RunTime:0.0220s ]
+NOTIC: [8] Undefined index: validate D:\phpStudy\WWW\express\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\phpStudy\WWW\express\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `ep_notice` (`title`,`notice`,`author`,`create_at`,`update_at`) VALUES ('123','123','admin','2018-05-08 17:15:33','2018-05-08 17:15:33') [ RunTime:0.0550s ]
+SQL: SELECT * FROM `ep_notice` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+

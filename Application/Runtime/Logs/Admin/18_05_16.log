@@ -1,0 +1,109 @@
+[ 2018-05-16T15:40:26+08:00 ] ::1 /express/index.php/Admin/Index/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008001s ]
+SQL: SHOW COLUMNS FROM `ep_admin` [ RunTime:0.0510s ]
+SQL: SELECT * FROM `ep_admin` WHERE ( name='admin' AND password='123' ) LIMIT 1   [ RunTime:0.0020s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2018-05-16T15:40:48+08:00 ] ::1 /express/index.php/Admin/Position/positionAdd
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `ep_position` [ RunTime:0.0390s ]
+NOTIC: [8] Undefined index: validate D:\phpStudy\WWW\express\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\phpStudy\WWW\express\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `ep_position` (`name`,`info`) VALUES ('录入员','录入信息') [ RunTime:0.0030s ]
+SQL: SELECT * FROM `ep_position` WHERE ( id='3' ) LIMIT 1   [ RunTime:0.0110s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2018-05-16T15:40:50+08:00 ] ::1 /express/index.php/Admin/Position/positionAdd
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008000s ]
+SQL: SHOW COLUMNS FROM `ep_position` [ RunTime:0.0220s ]
+NOTIC: [8] Undefined index: validate D:\phpStudy\WWW\express\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\phpStudy\WWW\express\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `ep_position` (`name`,`info`) VALUES ('录入员','录入信息') [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ep_position` WHERE ( id='4' ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2018-05-16T15:40:51+08:00 ] ::1 /express/index.php/Admin/Position/positionAdd
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007000s ]
+SQL: SHOW COLUMNS FROM `ep_position` [ RunTime:0.0220s ]
+NOTIC: [8] Undefined index: validate D:\phpStudy\WWW\express\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\phpStudy\WWW\express\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `ep_position` (`name`,`info`) VALUES ('录入员','录入信息') [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ep_position` WHERE ( id='5' ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007000s ]
+
+[ 2018-05-16T15:40:53+08:00 ] ::1 /express/index.php/Admin/Position/positionAdd
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `ep_position` [ RunTime:0.0220s ]
+NOTIC: [8] Undefined index: validate D:\phpStudy\WWW\express\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\phpStudy\WWW\express\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `ep_position` (`name`,`info`) VALUES ('录入员','录入信息') [ RunTime:0.0020s ]
+SQL: SELECT * FROM `ep_position` WHERE ( id='6' ) LIMIT 1   [ RunTime:0.0020s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2018-05-16T15:42:41+08:00 ] ::1 /express/index.php/Admin/Search/search
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006000s ]
+SQL: SHOW COLUMNS FROM `ep_express` [ RunTime:0.0230s ]
+SQL: SELECT * FROM `ep_express` WHERE (  number = ''  )  [ RunTime:0.0020s ]
+NOTIC: [8] Undefined offset: 0 D:\phpStudy\WWW\express\Application\Admin\Controller\SearchController.class.php 第 28 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003001s ]
+
+[ 2018-05-16T15:46:29+08:00 ] ::1 /express/index.php/Admin/Person/personAdd
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.014001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.016001s ]
+SQL: SHOW COLUMNS FROM `ep_user` [ RunTime:0.0260s ]
+NOTIC: [8] Undefined index: validate D:\phpStudy\WWW\express\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\phpStudy\WWW\express\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `ep_user` (`name`,`sex`,`position`,`username`,`password`,`phone`) VALUES ('长春','男','1','1','1','123') [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ep_user` WHERE ( id='3' ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2018-05-16T15:46:32+08:00 ] ::1 /express/index.php/Admin/Person/personAdd
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008001s ]
+SQL: SHOW COLUMNS FROM `ep_user` [ RunTime:0.0620s ]
+NOTIC: [8] Undefined index: validate D:\phpStudy\WWW\express\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\phpStudy\WWW\express\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `ep_user` (`name`,`sex`,`position`,`username`,`password`,`phone`) VALUES ('长春','男','1','1','1','123') [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ep_user` WHERE ( id='4' ) LIMIT 1   [ RunTime:0.0020s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2018-05-16T15:46:39+08:00 ] ::1 /express/index.php/Admin/Index/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.012000s ]
+SQL: SHOW COLUMNS FROM `ep_admin` [ RunTime:0.0270s ]
+SQL: SELECT * FROM `ep_admin` WHERE ( name='1' AND password='1' ) LIMIT 1   [ RunTime:0.0020s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005000s ]
+
